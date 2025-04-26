@@ -118,6 +118,7 @@ This is the My Profile Page.
                 <div id="profile-container">
                     <div id="profile-left">
                         <?php if ($loggedIn): ?>
+                            <div class="username-display"><?php echo htmlspecialchars($_SESSION["username"]); ?></div>
                             <img src="getPfp.php" id="profile-image">
                             <form id="pfp-form" action="uploadPfp.php" method="POST" enctype="multipart/form-data">
                                 <label for="pfp-input" class="pfp-btn">Choose File</label>

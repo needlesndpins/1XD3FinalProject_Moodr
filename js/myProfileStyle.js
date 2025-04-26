@@ -14,12 +14,18 @@ window.addEventListener("load", function (event) {
         let mainButtons = document.querySelectorAll(".profile-btn");
         let bio = document.getElementById("bio-textarea");
         let Bs = document.getElementsByTagName("b");
+        let usernameDisplay = document.querySelector(".username-display");
 
         body.style["background-color"] = styleArr["primary"];
         content.style["background-color"] = styleArr["secondary"];
         textbox1.style["background-color"] = styleArr["textbox"];
         bio.style["background-color"] = styleArr["secondary"];
         bio.style["color"] = styleArr["textbox"];
+        
+        if (usernameDisplay) {
+            usernameDisplay.style.color = styleArr["text"];
+        }
+        
         for(var i = 0; i < pfpButtons.length; i++) {
             pfpButtons[i].style.backgroundColor = styleArr["secondary"];
             pfpButtons[i].style.color = styleArr["textbox"];
