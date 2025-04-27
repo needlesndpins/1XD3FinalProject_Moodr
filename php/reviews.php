@@ -1,4 +1,12 @@
-<?php session_start();
+<?php 
+/**
+ * Author: Team 18, CSS Ninjas
+ * Created: March, 2025
+ * Submitted: April 26th, 2025
+ * Description: php file for 1XD3, Final Delivery.
+ * This is the reveiw page, renders any reviews that exist
+ */
+session_start();
 error_reporting(0);
 
 $loggedIn = false;
@@ -11,9 +19,7 @@ if (isset($_SESSION["username"])) {
 }
 ?>
 <!doctype html>
-<!--
-This is the Review Page.
--->
+
 <html>
 
 <head>

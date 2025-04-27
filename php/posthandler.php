@@ -1,10 +1,14 @@
 <?php
-
-/** 
+/**
+ * Author: Team 18, CSS Ninjas
+ * Created: March, 2025
+ * Submitted: April 26th, 2025
+ * Description: php file for 1XD3, Final Delivery.
  * Make a Post Processing
  * Checks if user is admin, then checks relevent parameters
  * to make a public post. 
  */
+
 session_start();
 include "connect.php";
 include "imageHandler.php"; // Using get_pfp_path()

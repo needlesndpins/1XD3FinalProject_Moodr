@@ -1,11 +1,14 @@
+/**
+ * Author: Team 18, CSS Ninjas
+ * Created: March, 2025
+ * Submitted: April 26th, 2025
+ * Description: js file for 1XD3, Final Delivery.
+ * Calls reviewhandler.php using AJAX in response to Admin creating a review
+ * Is included on reviews.php
+ * Also handles review deletion 
+ */
+
 window.addEventListener("load",function(event){ 
-
-    /** 
-     * Calls reviewhandler.php using AJAX in response to Admin creating a review
-     * Is included on reviews.php
-     * Also handles review deletion 
-     */
-
 
     let myform = document.getElementById("make-review-form");
     let rangeSlider = document.getElementById("review-score");

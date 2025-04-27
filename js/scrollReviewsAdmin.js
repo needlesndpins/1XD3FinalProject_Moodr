@@ -1,8 +1,13 @@
-/** 
+/**
+ * Author: Team 18, CSS Ninjas
+ * Created: March, 2025
+ * Submitted: April 26th, 2025
+ * Description: js file for 1XD3, Final Delivery.
  * Handles making AJAX requests to scrollHandler.php for reviews page
  * i.e Implements infinite scrolling for reviews page
- * Includes DELETE to new reviews
+ * Includes DELETE to new review
  */
+
 
 window.addEventListener("load", function (event) {
 

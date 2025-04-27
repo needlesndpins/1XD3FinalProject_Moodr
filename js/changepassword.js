@@ -1,3 +1,11 @@
+/**
+ * Author: Team 18, CSS Ninjas
+ * Created: March, 2025
+ * Submitted: April 26th, 2025
+ * Description: js file for 1XD3, Final Delivery.
+ * Creates change password screen once clicked
+ */
+
 window.addEventListener("load", function () {
     let changePasswordBtn = document.getElementById("change-password-btn");
     let profileOptions = document.getElementById("profile-options");

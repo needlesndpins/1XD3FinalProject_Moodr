@@ -1,7 +1,10 @@
 <?php
-/** 
- * Delete User Processing
- * Checks if user is admin, if not deletes user.
+/**
+ * Author: Team 18, CSS Ninjas
+ * Created: March, 2025
+ * Submitted: April 26th, 2025
+ * Description: php file for 1XD3, Final Delivery.
+ * Handles delete user requests from Administration page
  */
 
 session_start();

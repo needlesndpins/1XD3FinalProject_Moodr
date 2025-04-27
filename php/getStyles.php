@@ -1,4 +1,13 @@
 <?php
+/**
+ * Author: Team 18, CSS Ninjas
+ * Created: March, 2025
+ * Submitted: April 26th, 2025
+ * Description: php file for 1XD3, Final Delivery.
+ * Gets all styles from styles table, used to show 
+ * users what styles are available
+ */
+
 session_start();
 header('Content-Type:application/json');
 

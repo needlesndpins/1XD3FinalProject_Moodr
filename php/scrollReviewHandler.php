@@ -1,7 +1,10 @@
 <?php
-
-/** 
- * Implement infinite scrolling: 
+/**
+ * Author: Team 18, CSS Ninjas
+ * Created: March, 2025
+ * Submitted: April 26th, 2025
+ * Description: php file for 1XD3, Final Delivery.
+ * Implement infinite scrolling for reviews page: 
  * $_SESSION["rendered_reviews"] stores reviewID's of the reviews already on the page
  * $_SESSIOn["review_date"] stores the timestamp of the last review's timestamp
  * Script pulls 10 more posts from reviews table such that date is before last review and the 
@@ -9,6 +12,8 @@
  * Creates array of Associative Arrays and JSON encodes it so javascript can treat response as objects
  * Easier to render that way
  */
+
+
 session_start();    // Used to access $_SESSION["rendered_reviews] to see what reviews are already rendered
 header('Content-Type: application/json');
 

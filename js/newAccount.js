@@ -1,3 +1,11 @@
+/**
+ * Author: Team 18, CSS Ninjas
+ * Created: March, 2025
+ * Submitted: April 26th, 2025
+ * Description: js file for 1XD3, Final Delivery.
+ * Client side verification to create account
+ */
+
 window.addEventListener("load",function(event){ 
 
     let email = document.getElementById("email");
@@ -23,7 +31,6 @@ window.addEventListener("load",function(event){
     })
 
     showPassword.addEventListener("input",function(event){
-        console.log("got here");
         if (password.type === "password") {
             password.type = "text";
         } else {

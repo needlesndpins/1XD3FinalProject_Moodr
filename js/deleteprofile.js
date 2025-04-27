@@ -1,3 +1,11 @@
+/**
+ * Author: Team 18, CSS Ninjas
+ * Created: March, 2025
+ * Submitted: April 26th, 2025
+ * Description: js file for 1XD3, Final Delivery.
+ * Creates delete user profile screen once clicked
+ */
+
 window.addEventListener("load", function(event) {
     let deleteProfileBtn = document.getElementById("delete-profile-btn");
     let deleteProfilePopup = document.getElementById("delete-profile");

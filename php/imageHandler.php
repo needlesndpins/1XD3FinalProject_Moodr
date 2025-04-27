@@ -1,11 +1,15 @@
 <?php
-
-/** 
+/**
+ * Author: Team 18, CSS Ninjas
+ * Created: March, 2025
+ * Submitted: April 26th, 2025
+ * Description: php file for 1XD3, Final Delivery.
  * Stores image uploading handler
  * Has functions that verifies if file is valid (Is an image, uploaded successfully)
  * And a function that renames the file
  * And a function that retrieves the pfp path from the users database
  */
+
 
 
 /** 

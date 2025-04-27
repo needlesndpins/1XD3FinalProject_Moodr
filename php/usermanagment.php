@@ -1,14 +1,23 @@
-<?php session_start();?>
+<?php 
+/**
+ * Author: Team 18, CSS Ninjas
+ * Created: March, 2025
+ * Submitted: April 26th, 2025
+ * Description: php file for 1XD3, Final Delivery.
+ * Houses administration permissions
+ */
+session_start();
+?>
 <!doctype html>
 <!--
-This is the User Managment Page.
+This is the Admin Permissions Page.
 -->
 <html>
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Moodr - User Managment</title>
+    <title>Moodr - Administration</title>
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/usermanagment.css">
     <link rel = "stylesheet" href = "../css/hamburger.css">

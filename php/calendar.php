@@ -1,4 +1,13 @@
-<?php session_start();?>
+<?php 
+/**
+ * Author: Team 18, CSS Ninjas
+ * Created: March, 2025
+ * Submitted: April 26th, 2025
+ * Description: php file for 1XD3, Final Delivery.
+ * Displays the calendar, links to Google Calendar API
+ */
+session_start();
+?>
 <!doctype html>
 <!--
 This is the Calendar Page.

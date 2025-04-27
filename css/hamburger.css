@@ -1,10 +1,17 @@
+/**
+ * Author: Team 18, CSS Ninjas
+ * Created: March, 2025
+ * Submitted: April 26th, 2025
+ * Description: CSS file for 1XD3, Final Delivery.
+ * CSS for Hamburger NAV
+ */
+
 #content{ 
     z-index:1; /* Crucial to allow hamburger nav to go over content*/
 }
 
 
 #hamburger {
-    /* display:none; */
     width: 20%;
     margin-left: auto;
     text-align: right;
@@ -27,13 +34,10 @@
 }
 
 #hamburger-content {
-    /* position:absolute; */
     background-color: black;
     border-radius: 15px;
-    /* margin-left:auto; */
     position: absolute;
     word-wrap: break-word;
-    /* pointer-events:auto; */
     right: 7%;
     display: none;
     overflow: hidden;
@@ -51,7 +55,6 @@
 
 #hamburger-content .nav:hover {
     background-color: #444;
-    /* Slight darkening on hover */
 }
 
 /* Enable Hamburger nav */

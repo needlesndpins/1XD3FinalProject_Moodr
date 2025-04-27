@@ -1,7 +1,10 @@
 <?php
-
-/** 
- * Implement infinite scrolling: 
+/**
+ * Author: Team 18, CSS Ninjas
+ * Created: March, 2025
+ * Submitted: April 26th, 2025
+ * Description: php file for 1XD3, Final Delivery.
+ * Implement infinite scrolling for index page: 
  * $_SESSION["rendered_posts"] stores postID's of the posts already on the page
  * $_SESSIOn["post_date"] stores the timestamp of the last post's timestamp
  * Script pulls 10 more posts from posts table such that date is before last post and the 
@@ -9,6 +12,7 @@
  * Creates array of Associative Arrays and JSON encodes it so javascript can treat response as objects
  * Easier to render that way
  */
+
 session_start();    // Used to access $_SESSION["rendered_posts] to see what posts are already rendered
 header('Content-Type: application/json');
 

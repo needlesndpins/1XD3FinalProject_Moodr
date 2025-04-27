@@ -1,3 +1,12 @@
+/**
+ * Author: Team 18, CSS Ninjas
+ * Created: March, 2025
+ * Submitted: April 26th, 2025
+ * Description: js file for 1XD3, Final Delivery.
+ * Constructs choose theme page on myprofile.php
+ */
+
+
 window.addEventListener("load", function(event) {
     let stylePicker = document.getElementById("style-picker");
     let styleForm = document.getElementById("style-form");

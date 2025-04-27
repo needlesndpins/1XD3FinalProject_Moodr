@@ -1,3 +1,13 @@
+/**
+ * Author: Team 18, CSS Ninjas
+ * Created: March, 2025
+ * Submitted: April 26th, 2025
+ * Description: js file for 1XD3, Final Delivery.
+ * Handles AJAX requests to storing custom style inside styles table
+ * Calls storeStyle.php
+ */
+
+
 window.addEventListener("load",function(event){ 
 
     let button = document.getElementById("confirmStyle");
@@ -15,7 +25,6 @@ window.addEventListener("load",function(event){
         "&secondary="+secondary.value.substring(1)+"&text="+text.value.substring(1) 
         + "&textbox=" + textbox.value.substring(1); //Removes the #
 
-        console.log(url);
 
         fetch(url)
         .then(response=>response.text())
@@ -24,7 +33,6 @@ window.addEventListener("load",function(event){
     });
 
     function success(text){ 
-        console.log(text);
 
         let res = document.getElementById("styleResult");
         if(text != -1){ 

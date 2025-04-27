@@ -1,9 +1,13 @@
 <?php
-
-/** 
+/**
+ * Author: Team 18, CSS Ninjas
+ * Created: March, 2025
+ * Submitted: April 26th, 2025
+ * Description: php file for 1XD3, Final Delivery.
  * Handles delete review requests from reviewListener.js 
  * Receives a reviewID and deletes it 
  */
+
 session_start();
 if (isset($_SESSION["role"])) {
     if ($_SESSION["role"] === "admin") { // Ensure they are an admin

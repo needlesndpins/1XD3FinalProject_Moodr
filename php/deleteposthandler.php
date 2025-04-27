@@ -1,8 +1,12 @@
 <?php
-/** 
- * Delete Post Processing
- * Checks if user is admin, then allows admin to delete post.
+/**
+ * Author: Team 18, CSS Ninjas
+ * Created: March, 2025
+ * Submitted: April 26th, 2025
+ * Description: php file for 1XD3, Final Delivery.
+ * Delete Post Processing, checks if user is admin then allows them to delete posts
  */
+
 
 session_start();
 include "connect.php";

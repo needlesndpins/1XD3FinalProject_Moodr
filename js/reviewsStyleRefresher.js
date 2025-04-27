@@ -1,3 +1,11 @@
+/**
+ * Author: Team 18, CSS Ninjas
+ * Created: March, 2025
+ * Submitted: April 26th, 2025
+ * Description: js file for 1XD3, Final Delivery.
+ * Refreshes custom theme once a new post is made
+ */
+
 window.addEventListener("load", function (event) {
 
     //when user makes a post it refreshes the color scheme

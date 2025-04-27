@@ -1,11 +1,18 @@
-<?php session_start();
-error_reporting(0); ?>
+<?php 
+/**
+ * Author: Team 18, CSS Ninjas
+ * Created: March, 2025
+ * Submitted: April 26th, 2025
+ * Description: php file for 1XD3, Final Delivery.
+ * This is the splash page which users will first be greeted with. It holds announcements
+ * and important information about the club.
+ */
+session_start();
+error_reporting(0);
+
+?>
 
 <!doctype html>
-<!--
-This is the splash page which users will first be greeted with. It holds announcements
-and important information about the club.
--->
 <html>
 
 <head>
@@ -27,18 +34,12 @@ and important information about the club.
         }else{
             echo "<script src='../js/indexStyle.js'></script>";
             echo "<script src='../js/scrollIndex.js'></script>";
-            // echo "<script src='../js/postListenerUser.js'></script>";
         }
     }else{ 
         echo "<script src='../js/scrollIndex.js'></script>";
     }
     
-    // if ($_SESSION["role"] === "admin") {
-    //     echo "<script src='../js/postListenerAdmin.js'></script>";
-    // } else {
-    //     echo "<script src='../js/postListenerUser.js'></script>";
-    // }
-    // ?>
+    ?>
 </head>
 
 <body>

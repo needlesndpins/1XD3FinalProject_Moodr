@@ -1,13 +1,17 @@
 <?php
-session_start();
-header('Content-Type: application/json');
-date_default_timezone_set('America/New_York');
-/** 
+/**
+ * Author: Team 18, CSS Ninjas
+ * Created: March, 2025
+ * Submitted: April 26th, 2025
+ * Description: php file for 1XD3, Final Delivery.
  * Handle storing reviews in database based on data sent from 
  * HTTP request initialized from reviewListener.js 
  */
 
-//  var_dump($_FILES);
+session_start();
+header('Content-Type: application/json');
+date_default_timezone_set('America/New_York');
+
 
 if ($_SESSION["role"] === "admin") {
     //They are an admin 

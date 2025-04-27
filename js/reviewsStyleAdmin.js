@@ -1,3 +1,11 @@
+/**
+ * Author: Team 18, CSS Ninjas
+ * Created: March, 2025
+ * Submitted: April 26th, 2025
+ * Description: js file for 1XD3, Final Delivery.
+ * Applies custom style to reviews.php but accounts for extra items Admins have
+ */
+
 window.addEventListener("load", function (event) {
 
 
