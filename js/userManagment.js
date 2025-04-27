@@ -19,7 +19,7 @@ window.addEventListener("load", function (event) {
                 fetch("deleteUserHandler.php", config)
                     .then(response => response.text())
                     .then(data => {
-                        console.log(data);
+                        // console.log(data);
                         if(data!=(-1)){
                             //remove the user from the DOM
                             let userElement = event.target.closest(".user"); //finds the nearest user class that was clicked
@@ -49,7 +49,7 @@ window.addEventListener("load", function (event) {
                 fetch("makeAdminHandler.php", config)
                     .then(response => response.text())
                     .then(data => {
-                        console.log(data);//debug
+                        // console.log(data);//debug
                         
                         if(data!=(-1)){
                             //change role in dom
@@ -61,7 +61,7 @@ window.addEventListener("load", function (event) {
                         }else{
                             alert("User is already an admin.");
                         }
-                    })
+                    } )
                     .catch(error => console.error("Fetch error:", error));
             }
         }
@@ -82,13 +82,13 @@ window.addEventListener("load", function (event) {
                 fetch("banUserHandler.php", config)
                     .then(response => response.text())
                     .then(data => {
-                        console.log(data);//debug
+                        // console.log(data);//debug
                         let status = document.getElementById("##"+banUser.id); 
                         let userElement = event.target.closest(".user"); //finds the nearest user class that was clicked
                         if(data==="1"){
                             //change status in dom
                             if (userElement) {
-                                console.log("got here");
+                                // console.log("got here");
                                 status.innerHTML = "inactive";
                                 banUser.innerHTML = "UNBAN USER";
                                 banUser.classList.add("unbanned");
@@ -118,7 +118,7 @@ window.addEventListener("load", function (event) {
                 fetch("resetAdminHandler.php")
                     .then(response => response.text())
                     .then(data => {
-                        console.log(data);//debug
+                        // console.log(data);//debug
                         
                         if(data!=(-1)){
                             //change role in dom
@@ -171,7 +171,7 @@ window.addEventListener("load", function (event) {
         "&secondary="+secondary.value.substring(1)+"&text="+text.value.substring(1) 
         + "&textbox=" + textbox.value.substring(1); //Removes the #
 
-        console.log(url);
+        // console.log(url);
 
         fetch(url)
         .then(response=>response.text())
@@ -180,7 +180,7 @@ window.addEventListener("load", function (event) {
     });
 
     function success(text){ 
-        console.log(text);
+        // console.log(text);
 
         
 

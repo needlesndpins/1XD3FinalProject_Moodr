@@ -7,7 +7,7 @@ window.addEventListener("load", function (event) {
         .catch(error => console.error("Fetch error:", error));
 
     function success(styleArr){
-        console.log(styleArr);
+        // console.log(styleArr);
         let body = document.body;
         let content = document.getElementById("content");
         let textbox1 = document.getElementById("styleCreate");

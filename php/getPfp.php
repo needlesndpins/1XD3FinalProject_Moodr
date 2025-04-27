@@ -9,7 +9,7 @@ if (!isset($_SESSION['username'])) {
 
 $username = $_SESSION['username'];
 
-$cmd = "SELECT pfp_path FROM users WHERE username = ?";
+$cmd = "SELECT `pfp_path` FROM users WHERE `username` = ?";
 $stmt = $dbh->prepare($cmd);
 $stmt->execute([$username]);
 
