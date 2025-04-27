@@ -93,8 +93,9 @@ h1 {
     margin-left: 30px;
 }
 
-#about-us h1{ 
-    margin:0;
+
+#social-icons { 
+    margin-left:30px;
 }
 
 p,
@@ -352,6 +353,16 @@ li {
         padding-left:10px;
         font-size: small;
     }
+    #about-us h1{ 
+        margin-left:10px;
+    }
+    #about-us p{
+        margin-left:10px;
+        font-size:small;
+    }
+    #social-icons { 
+        margin-left:10px;
+    }
 
     .trash-icon img{
         width:15px;
@@ -367,10 +378,6 @@ li {
         height:40px;
         margin-top:5px;
         border-radius: 3px;
-    }
-
-    .post-pfp{
-        
     }
 
     #content{
