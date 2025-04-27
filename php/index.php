@@ -123,6 +123,21 @@ and important information about the club.
                 }
                 ?>
             </div>
+            <div id="about-us">
+                <h1>About Us</h1>
+                <p>Mac's very own music listening community! Join us for weekly listening parties, album discussions,
+                    record store runs, concert outings, and more!</p>
+
+                <p>Want to make an <i>Album Suggestion</i>? <a
+                        href="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeAWZ3hKneWsGEg7usLBhnX5lvzuHhFQyhzgqokE-0nKnnSUA/viewform?pli=1"
+                        target="_blank">Click
+                        Here!</a></p>
+
+                <div id="social-icons">
+                    <a href = "https://www.instagram.com/macmoodfm/" target = "_blank"><img src = "../images/insta_icon.png" width = "20" height = "20"></a>
+                    <a href = "https://discord.gg/8crcQw9n" target = "_blank"><img src = "../images/discord_icon.png" width = "20" height = "20"></a>
+                </div>
+            </div>
 
             <?php // If admin, they can post.
             if ($loggedIn) {

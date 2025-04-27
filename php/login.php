@@ -59,6 +59,7 @@ This is the login page
                     ?>
                     
                     <a href="newAccount.php">Create new account</a>
+                    <a href = "index.php">Dashboard</a>
                 </form>
                 
             </div>

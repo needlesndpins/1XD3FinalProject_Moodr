@@ -21,12 +21,17 @@ include "connect.php";
 
 if ($username !== null && $password !== null && $email !== null && $confirm !== null
     && $email !== false && $confirm !== false){
+    // Received all parameters
     $load = false;
-    $paramsok = true;
+    if(strlen($username) <= 20 && strlen($username) >=0 && strlen($password) >= 8){ 
+        // All inputs are valid
+        $paramsok = true;
+    }
 }
 
 
-
+$userExists = false; 
+$emailExists = false;
 if ($paramsok) {
     $cmd = "SELECT * FROM users WHERE username=? OR email=? LIMIT 1";
     $stmt = $dbh->prepare($cmd);
